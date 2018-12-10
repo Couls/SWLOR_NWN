@@ -94,7 +94,7 @@ namespace SWLOR.Game.Server.Conversation
             switch (responseID)
             {
                 case 1: // Confirm Description Change
-                    _playerDescription.ChangePlayerDescription(GetPC());
+                    _playerDescription.ChangePlayerDescription(GetPC().GetLocalString("NEW_DESCRIPTION_TO_SET"));
                     EndConversation();
                     break;
             }
