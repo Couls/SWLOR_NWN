@@ -3,7 +3,7 @@ using NWN;
 using SWLOR.Game.Server.Enumeration;
 using SWLOR.Game.Server.GameObject;
 using SWLOR.Game.Server.Service.Contracts;
-using static NWN.NWScript;
+using static NWN.NWScript; //
 
 namespace SWLOR.Game.Server.Perk.Blaster
 {
